@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    object-fit: fill;
+}
+
+.services-btn button{
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom:15px;
+    background-color: transparent;
+    border: 1px solid rgb(214, 214, 214);
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    height: 50px;
+    font-size: 16px;
+    /* padding: 5px; */
+    border-radius: 16px;
+        transform:
+          perspective(800px)
+          rotateY(-8deg);
+        transition: transform 1s ease 0s;
+        border-radius: 4px;
+        box-shadow:2px 2px 3px rgb(185, 185, 185);
+    
+    }
+          /* rgba(219, 219, 219, 0.011) 0px 0px 0px 1px,
+          rgba(131, 130, 130, 0.005) 0px 1px 0px 0px,
+          rgba(143, 143, 143, 0.003) 0px 0px 8px 0px,
+          rgba(0, 0, 0, 0.003) 0px 20px 30px 0px; */
+
+.services-btn button:hover{
+
+ transform: perspective(800px) rotateY(-4deg) scale(1.05);
+
+}
+
+#btn-name{
+    justify-content:center;
+}
+
+
+
+ .services-btn button:hover i{
+    color: rgb(255, 255, 255);
+
+}
+#Tab-Section .nav .active{
+     background-color: rgb(94, 0, 116) !important;
+     color: white;
+     font-size: 18px;
+     font-weight: 1200;
+}
+#Tab-Section .nav .active i{
+    color: white;
+}
+
+/* @media only screen and (max-width:500px){
+
+    #v-pills-tabContent div{
+        padding: 20px;
+
+    }
+
+
+}
+ */

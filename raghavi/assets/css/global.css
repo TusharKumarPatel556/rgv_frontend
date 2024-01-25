@@ -1,0 +1,42 @@
+
+.center-row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.center-col{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.transparent{
+    background-color: transparent;
+}
+.shadow{
+    box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+    -webkit-box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+    -moz-box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+}
+
+
+.Contact-Info,.heading{
+    color: #4e124e;
+    }
+.Contact-Info h5{
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+#page-heading{
+        background-image: linear-gradient(-190deg,rgb(80, 23, 92),rgba(81, 24, 92, 0.603));
+    }
+
+#page-heading h3{
+        font-size: 40px;
+        color: white;
+    }
+
+.dropdown-toggle::after{
+    display: none!important;
+}

@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Doc-Info{
+    /* border: 2px solid red; */
+    position: relative;
+margin-bottom: 70px;
+transform: scale(0.9);
+}
+.Doc-Info .card{
+    z-index: 7000;
+    box-shadow: 4px 4px 15px rgb(143, 143, 143);
+    
+}
+.Doc-Info:before{
+    content: '';
+    position: absolute;
+    top: -5%;
+    box-shadow: 4px 4px 15px rgb(143, 143, 143);
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+    opacity: 0.5;
+    background-image: linear-gradient(rgb(83, 49, 110),rgba(247, 114, 207, 0.733));
+}
+
+.Doc-Info:after{
+    content: '';
+    position: absolute;
+    bottom: -5%;
+    right: 10%;
+    width: 150px;
+    transition: 1s;
+    box-shadow: 4px 4px 15px rgb(143, 143, 143);
+    height: 150px;
+    z-index: 0.5;
+    opacity: 0.5;
+    background-image: linear-gradient(rgb(83, 49, 110),rgba(247, 114, 207, 0.733));
+}
+
+.Doc-Info:hover::after{
+    bottom: 70%;
+    transition: 1s;
+    opacity: 1;
+}
+.Doc-Info:hover::before{
+    top: 70%;
+    transition: 1s;
+    opacity: 1;
+}

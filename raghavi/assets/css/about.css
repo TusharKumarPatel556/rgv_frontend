@@ -1,0 +1,387 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 100;
+    text-align:justify;
+    box-sizing: border-box;
+}
+.Hospital-Information{
+    /* background-image:linear-gradient(140deg,rgba(128, 128, 128, 0.418),rgba(226, 224, 224, 0.048),white); */
+    background-image:linear-gradient(140deg,rgba(253, 247, 214, 0.418),rgba(226, 224, 224, 0.048),white);
+}
+
+#hos-desc{
+    text-align:justify;
+}
+
+.founding-members {
+    float: left;
+}
+
+.About-Fasilities .card{
+    margin-bottom: 50px;
+}
+.About-Fasilities .card img{
+    box-shadow: 3px 3px 10px rgb(214, 214, 214);
+    
+}
+
+.hos-des{
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position:center;
+   
+}   
+
+.vision{
+    background-image: linear-gradient(rgba(32, 32, 32, 0.521),rgba(116, 116, 116, 0.137)),url(../../public/images/vision.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position:-80%;
+     color: white;
+}
+
+#Facilities{
+margin: 130px 0px ;
+background-color: rgba(228, 228, 228, 0.205);
+}
+
+
+#infa{
+    background-image: url(../../public/images/infa.jpg);
+}
+#ot{
+    background-image: url(../../public/images/ot.jpg);
+}
+#icu{
+    background-image: url(../../public/images/ic.jpg);
+}
+
+#casu{
+    background-image: url(../../public/images/casuality.jpg);
+}
+
+.Our-Infastructure li{
+    list-style: none;
+    font-size: 20px;
+}
+.Our-Infastructure i{
+    color: purple;
+    font-size: 30px;
+}
+.Aboutpage-Why-Choose-us{
+    background-image: url("../images/whyus2.jpg");
+background-position: left;
+background-size: contain;
+}
+.Aboutpage-Why-Choose-us .card{
+    backdrop-filter: blur(10px);
+    border: none;
+    overflow: visible;
+    border-radius: 0;
+  
+   
+}
+
+.Aboutpage-Why-Choose-us .card:hover{
+    /* border: 2px solid rgba(91, 111, 117, 0.418); */
+    -webkit-animation: jello-vertical 0.9s both;
+	animation: jello-vertical 0.9s both;
+    box-shadow: 10px -1px 11px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px -1px 11px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -1px 11px -10px rgba(0,0,0,0.75);
+}
+.whyus-icon{
+    background-color: white;
+   margin-right: -10px;
+   z-index: 10000;
+   transform: scale(1.03);
+   box-shadow: 1px 1px 7px rgb(60, 54, 63);
+   border-radius: 1000;
+   
+}
+
+
+.whyus-card-body{
+   /* background-image: linear-gradient(-190deg,rgba(135, 109, 136, 0.473),rgb(154, 57, 167)); */
+   background-image: linear-gradient(320deg,rgb(86, 22, 99),rgb(130, 30, 150));
+    color: white;
+}
+
+
+
+@-webkit-keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    /* 65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    } */
+    /* 75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    } */
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @media only screen and (max-width:767px) {
+    .whyus-icon{
+        margin-right: -50px;
+        z-index: 10000;
+      
+       
+        border-radius: 0%;
+     }
+    
+}
+
+@media only screen and (max-width:516px) {
+    .founder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .founding-members {
+        float:none;
+       
+    }
+    .hos-des{
+        height: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top Nav Icons */
+
+/* .nav-font{
+    color: rgba(56, 0, 65);
+    margin-right: 28px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+} */
+.Icon{
+    border-radius: 50%;
+    height: 50px;
+}
+.AboutHospital{
+    position: relative;
+}
+.Why-Weare .card:hover{
+    box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.459);
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.Why-Weare .card{
+    transition: 1s;
+    margin: 5px;
+}
+.About-Content{
+    background-image: linear-gradient(90deg,rgb(230, 184, 240),rgb(234, 178, 247));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.Team-Container{
+    position: relative;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team_item:before{
+    content: '';
+    position: absolute;
+   background-image:linear-gradient(190deg,rgba(214, 214, 214, 0.671),rgba(128, 128, 128, 0.075));
+    width: 100%;
+    height: 71.5%;
+    transition: 1s;
+    z-index: 1;
+}
+.team_item:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+   background-image:linear-gradient(190deg,rgba(214, 214, 214, 0.671),rgba(128, 128, 128, 0.075));
+   width: 100%;
+    height: 71.5%;
+    transition: 1s;
+    z-index: 1;
+    border-radius: 100% 0% 100% 0% / 71% 100% 0% 29% ;
+}
+.team_item:hover::before{
+    height: 1%;
+    transition: 1s;
+}
+.team_item:hover::after{
+    height: 1%;
+    transition: 1s;
+}
+.doc-name{
+    z-index: 10;
+}

@@ -1,0 +1,471 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+ z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#whatsapp{
+position: fixed;
+top: 50%;
+right: 0;
+z-index: 6000; 
+width: 60px;
+ height: 60px; 
+ background-color: white; 
+ border-radius: 50%;
+}
+/* whatsapp icon  */
+/* Top nav Styling */
+.Nav-Options-Bar{
+    border-top: 1px dotted rgb(0, 0, 0);
+}
+
+#logo{ 
+    object-fit: fill;
+}
+
+/* Main Nav Styling */
+
+/* STICKY NAVBAR CLASS */
+.nav-font{
+    color: rgba(56, 0, 65);
+    margin-right: 28px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar{
+    /* background-color: rgb(255, 255, 255); */
+    transition: 1s;
+}
+
+.Header{
+    position: sticky;
+    top: 2px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.404);
+}
+
+.heading{
+    color: rgba(56, 0, 65);
+}
+
+#Facilities-menu,#Services-menu{
+    border-top: 2px solid rgb(94, 0, 97);
+    width: 900px;
+    margin-top:30px;
+    margin-top: 1px;
+    z-index: 6000;
+    animation: dropdown-Bottom_to_Top 0.2s linear;
+    box-shadow: 8px 22px 31px -16px rgba(255, 255, 255, 0.65);
+    -webkit-box-shadow: 8px 22px 31px -16px rgba(255, 255, 255, 0.65);
+    -moz-box-shadow: 8px 22px 31px -16px rgba(255, 255, 255, 0.65);
+}    
+#Services-menu li{
+    text-align: center;
+}
+
+#Facilities-menu li{
+    text-align: center;
+}
+
+#gallery-options{
+    border-top: 2px solid rgb(94, 0, 97);
+    margin-top:30px;
+    margin-top: 1px;
+    z-index: 6000;
+    animation: dropdown-Bottom_to_Top 0.2s linear;
+}
+
+#Services-menu  .nav-font:hover{
+    color: white;
+    background-color: #6F2B8C;
+
+}
+#Facilities-menu .nav-font:hover{
+    color: white;
+    background-color: #6F2B8C;
+}
+/* dropdown nav animation new navbar */
+/* #Services-menu{
+
+} */
+.Services:hover #Services-menu{
+    display: block;
+}
+
+.Facilities:hover #Facilities-menu{
+    display: block;
+}
+.Gallery:hover #gallery-options{
+    display: block;
+}
+
+/* BANNER SECTION */
+.Banner-Title {
+    animation: Left_to_Right 2s linear ;
+}
+.card-title-banner{
+color: white;
+font-size: 3em;
+animation: Bottom_to_Top 1.6s linear;
+}
+
+.Banner-Title {
+color: white;
+font-size:6rem;
+}
+
+.Carl-Inner{
+    height: 500px;
+}
+
+.CarouselItem:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+    z-index:1;
+}
+
+/* About section index start */
+.Aboutus{
+display: flex;
+}
+
+
+
+
+
+/* About section index end */
+
+
+/* options styling */
+
+.Options-group{
+    overflow: hidden;
+}
+.Options-group:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: 1s;
+    z-index: 1;
+    transform-origin:left;
+    background-image: linear-gradient(290deg,rgba(214, 214, 214, 0.486), #7b6485b0);
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+}
+
+.Options{
+    position: relative;
+     margin-top: -90px;
+}
+
+.Options-group:hover::before{
+    top: -80%;
+    transition: 1s;
+}
+
+#heart-bit{
+    transform: scale(0.8);
+}
+
+
+@keyframes Left_to_Right{
+    0%{
+        transform: translate(-1000px);
+        
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes Right_to_Left{
+    0%{
+        transform: translate(800px);
+     
+    }
+    100%{
+        transform: translate(0px);
+        
+    }
+}
+
+@keyframes Bottom_to_Top{
+    0%{
+        transform: translateY(700px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+    @keyframes dropdown-Bottom_to_Top{
+        0%{
+            transform: translateY(200px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+          
+        }
+}
+.Laser-Treatment:before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(165deg,rgba(39, 39, 39, 0.897), #00000098);
+}
+.Specialities .card {
+    height: 300px;
+}
+.Specialities .card .card-body{
+    padding: 0;
+}
+.Specialities .card p{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+/* .Specialities .card{
+    margin-top: 50px;
+    transform: scale(0.8);
+    border:none;
+    box-shadow: 12px 7px 17px rgba(243, 218, 186, 0.699);
+
+        transform:
+          perspective(75em)
+          rotateX(18deg);
+        box-shadow:
+          rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+          rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+        border-radius: 10px;
+        border: 1px solid;
+        border-color:
+          rgb(213, 220, 226)
+          rgb(213, 220, 226)
+          rgb(184, 194, 204);   
+          transition: .3s;
+} */
+
+.Specialities .card img{
+    transform: scale(0.5) translateY(-10px);
+    border-radius: 20px;
+    
+    box-shadow: 12px 7px 17px rgb(175, 175, 175);
+}
+
+.Specialities .card:hover{
+    box-shadow: 7px 7px 17px rgb(131, 131, 131);
+}
+
+
+
+.Specialities .card:hover img{
+    box-shadow: 7px 7px 17px rgba(61, 61, 61, 0.548);
+    transition: 1s;
+}
+#our-specialities{
+    font-size: 36px; 
+    font-weight: 600;
+    color: rgb(38, 38, 104);
+    margin-top: 80px;
+}
+/* */
+.SpecialProc{
+    margin-top: 150px;
+}
+.Slick-Slide .card{
+    border: 0px;
+    /* height: 300px; */
+    box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.212);
+}
+.Slick-Slide .card img{
+    height: 200px;
+  
+}
+.Slick-Slide .card:hover{
+    transform: scale(1.15);
+    transition: 0.600s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.212);
+}
+
+/* TESTIMONIALS START*/
+
+
+.testimonial-star i{
+    color:rgb(255, 187, 0);
+    margin-left: 10px;
+    font-size: 22px;  
+}
+/* TESTIMONIALS ENDS*/
+
+
+
+
+
+/* Achivements */
+.Achivements .card{
+    width: 18rem;
+    background-color: transparent;
+     height: 300px;
+     background-color: rgba(255,255,255,0.1);
+     backdrop-filter: blur(20px);
+
+}
+.Why-Us-Section{
+    background-image:linear-gradient(190deg,rgba(56, 0, 65, 0.692)40%,rgb(237, 200, 243)),url("../images/home_doc_tab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.whyus-button{
+    background-color: transparent;
+    width: 150px;
+    border: none;
+    font-size: 32px;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+}
+.why-usimg{
+    animation-name: Left_to_Right;
+    animation-duration: 2s;
+}
+.why-uscard{
+    animation-name: Right_to_Left;
+    animation-duration: 2s;
+}
+.Card-Main{
+    border: none;
+}
+.Ach-text{
+    color: white;
+    font-size: 22px;
+    font-weight: 1000;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.Ach-Num{
+    font-size: 82px;
+    font-weight: 500;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub{
+    font-size: 52px;
+    
+}
+.Faq{
+    background-color: rgba(224, 224, 224, 0.151);
+}
+
+.FAQ{
+color: #6F2B8C;
+}
+
+/* OFF CANVAS */
+#offcanvasExample{
+    z-index: 6000;
+     backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1300px){
+    .Banner-Title{
+      font-size: 50px;
+    }
+}  
+
+@media only screen and (max-width:1000px){
+
+    .Banner-Title{
+    font-size: 40px;
+    }
+    .Options{
+        margin-top: 0px;
+      
+    }
+    #logo{
+        height:"80px";
+        width: 280px;
+    }
+    .Banner-Title h4{
+        color: white;
+        font-size:4rem;
+    }
+    .Carl-Inner{
+        height: 400px;
+    }
+    #Appointment-img{
+        height: 600px;
+    }
+    .Options{
+        transform: scale(0.8);
+      }
+}
+
+@media only screen and (max-width:700px){
+    .Banner-Title{
+        font-size: 40px;
+      }
+    #logo{
+        height:"80px";
+        width: 260px;
+    }
+    #heart-bit{
+        transform: scale(0.7);
+    }
+    
+    .Banner-Title h4{
+        color: white;
+        font-size:3rem;
+        }
+        .Carl-Inner{
+            height: 400px;
+        }
+        .card-title-banner{
+            color: white;
+            font-size: 1em;
+        }
+        .Image{
+                height: 250px;
+        }
+        .CarouselInner{
+                height: 250px;
+        }
+        #Appointment-img{
+                height: 380px;
+        }
+        .Options{
+            transform: scale(0.7);
+        }
+}
+
+@media only screen and (max-width:500px){
+    #Appointment-img{
+        height: 300px;
+  }
+  #heart-bit{
+    transform: scale(0.5);
+
+}
+#logo{
+    height:"80px";
+    width: 260px;
+}
+}
+
+
+
+

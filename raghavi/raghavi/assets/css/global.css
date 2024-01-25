@@ -1,0 +1,28 @@
+
+.center-row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.center-col{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.transparent{
+    background-color: transparent;
+}
+.shadow{
+    box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+    -webkit-box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+    -moz-box-shadow: -1px 45px 27px -9px rgba(0,0,0,0.32);
+}
+
+.Contact-Info{
+    color: #4e124e;
+    }
+    .Contact-Info h5{
+        font-weight: 700;
+        font-size: 32px;
+    }

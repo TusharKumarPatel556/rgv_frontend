@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Top-Heading{
+    font-family: 'Poppins', sans-serif;
+}
+.Gradient-text-1{
+    font-size: 3rem ;
+    color: rgb(160, 80, 140);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.Gradient-text-2{
+    font-size:3rem;
+    color: rgb(160, 80, 140);
+    text-transform: uppercase;
+    font-weight: 900;
+   
+ 
+}
+
+
+
+
+.Location_Icon{
+    background-color: #639de9;
+    width: 30px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 100px;
+    color: aliceblue;
+}
+
+.Footer_Section{
+    background-color: #22344d;
+}
+
+.Footer_Section_Heading{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.Footer_Section_Paragrapg{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.Contact_Section_Paragrapg{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.Footer_Copyright_section{
+    color: aliceblue;
+}
+
+.center-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Health_Card_Holder_Name{
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.Health_Card_number_span{
+    color: red;
+}
+
+.Health_card_submit_button{
+    height: 40px;
+    width: 70px;
+    background-color:#E5E8E8;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.CheckBoxs{
+    font-size: 13px;
+    font-weight: none;
+    font-weight: 400;
+}

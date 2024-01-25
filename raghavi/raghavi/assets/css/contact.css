@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Contact_us_heading{
+    background-color: #EBF5FB;
+    width: 100vw;
+    height: 30vh;
+}
+
+.Location_Icon{
+    width: 45px;
+    height: 55px;
+    color: #AED6F1;
+}
+
+.Horizontel_Line{
+    border-style: dotted;
+}
+
+.Reach_Us_Section_Heading{
+    font-size: 37px;
+    font-family: 'Roboto';
+}
+
+.Reach_Us_Location{
+    font-size: 22px;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.Reach_Us_Paragraph{
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.For_Enquiry_section{
+    padding: 30px;
+    border-style: none;
+    border-color: #EBF5FB;
+}
+
+.Share_Your_Problem{
+    height: 130px;
+}
+
+
+.Contact_Section_Paragrapg{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+
+
+
+.Enquiry_section_button{
+    height: 55px;
+    width: 170px;
+    background-color: #639de9;
+    font-weight: bold;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.Contact_Us_Heading{
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.For_Enquiry_heading{
+    font-weight: bold;
+    font-weight: 500;
+}

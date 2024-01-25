@@ -1,0 +1,34 @@
+#testimonials div .card{
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    transition: 1s;
+}
+#testimonials div .card:hover{
+    transform: translateY(-20px);
+    box-shadow:  0.5px 0.5px 12px #b0b0b098,
+    -0.5px -0.5px 22px #ffffff;
+  transition: 1s;
+    padding: 20px;
+}
+.testimonial-card{
+    position: relative;
+}
+#google{
+    position:absolute;
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
+    top: -5%;
+    left: 45%;
+    background-color: white;
+}
+.testimonial-card:hover #google{
+    transform: translateY(-5px)  scale(1.2);
+}
+#testimonials div .card i{
+    color:rgb(255, 187, 0);
+    margin-left: 10px;
+    font-size: 22px;  
+}

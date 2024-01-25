@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    
+}
+/* STICKY NAVBAR CLASS */
+#navbar{
+    background-color: rgb(91, 55, 112);
+    transition: 1s;
+}
+.Header{
+    position: sticky;
+    top: 8px;
+}
+/* STICKY NAVBAR ENDS */
+.top-nav{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+.Menu{
+    box-sizing: border-box;
+    margin-top: 10x solid rgb(221, 0, 136);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+}
+/* .Nav-Bar{ */
+    /* background-color: rgb(255, 255, 255); */
+    /* position: sticky;
+    top: 30px; */
+/* } */
+/* BANNER SECTION STYLING */
+#Tag-Line{
+    color: rgba(0, 0, 255, 0.623);
+    font-weight: 600;
+    font-size: 50px;
+    animation-name:Left_to_Right;
+    animation-duration: 1.5s;
+}
+#Tag-desc{
+    animation-name:Right_to_Left;
+    animation-duration: 3s;
+    
+}
+
+/* OUR AIM  */
+
+
+
+/* SUCCESSFUL STORIES AREA */
+.Call-Now-Section{
+       background-image: linear-gradient(130deg,rgb(146, 47, 138),rgba(255, 81, 240, 0.322));
+       color: white;
+}
+#call-now{
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 107, 169);
+    width: 200px;
+}
+.Stories-Area{
+    border-bottom: 1px solid rgb(255, 0, 179);
+/* border-radius: 0% 100% 0% 100% / 79% 0% 100% 21% ; */
+    
+}
+
+
+/* Our Specialities Section */
+.Specialities{
+    justify-content:center;
+}
+
+
+.Specialities .card{
+    margin: 10px;
+}
+
+@media only screen and (max-width:1390px){
+    .Specialities{
+        justify-content:start;
+    }
+}
+@media only screen and (max-width:1200px){
+    .Specialities{
+        justify-content:center;
+    }
+}
+/* Why Us Section */
+.Why-Us-Section{
+    background-image:linear-gradient(90deg,rgba(226, 101, 199, 0.295)40%,rgba(139, 193, 255, 0.685)),url("../images/home_doc_tab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whyus-button{
+    background-color: transparent;
+    width: 150px;
+    border: none;
+    font-size: 32px;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+}
+.why-usimg{
+    animation-name: Left_to_Right;
+    animation-duration: 2s;
+}
+.why-uscard{
+    animation-name: Right_to_Left;
+    animation-duration: 2s;
+}
+.Card-Main{
+    border: none;
+}
+/* .Card-Main:hover{
+backdrop-filter:blur(30px) ;
+transition: 1s;
+} */
+
+
+/* Tagline Animation */
+@keyframes Left_to_Right{
+    0%{
+        transform: translate(-800px);
+     
+    }
+    100%{
+        transform: translate(0px);
+        
+    }
+}
+
+@keyframes Right_to_Left{
+    0%{
+        transform: translate(800px);
+     
+    }
+    100%{
+        transform: translate(0px);
+        
+    }
+}
